@@ -5,9 +5,14 @@ namespace CSharp_Advanced
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var delegateTypes = new Delegates.DelegateTypes();
+
+            delegateTypes.SingleDelegateExample();
+            delegateTypes.MulticastDelegateExample();
+            delegateTypes.GenericDelegates();
+            
         }
     }
 }
