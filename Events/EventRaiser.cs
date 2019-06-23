@@ -8,15 +8,17 @@ namespace Events
         public event EventHandler<DelegateTypeEventArgs> DelegateTypeSelected;
         public event EventHandler ExecutionCompleted;
 
-        // With delegate - public event DelegateTypeHandler DelegateTypeSelected;
-
-        public void SelectDelegate()
+        public void Start()
         {
             foreach (var type in Enum.GetValues(typeof(DelegateType)))
             {
+                System.Threading.Thread.Sleep(1000);
+
                 DelegateType enumType = (DelegateType)Enum.Parse(typeof(DelegateType), type.ToString());
                 OnDelegateType(enumType);
             }
+            System.Threading.Thread.Sleep(1000);
+            OnCompleted();
         }
 
         protected virtual void OnDelegateType(DelegateType type)
@@ -24,7 +26,7 @@ namespace Events
             DelegateTypeSelected?.Invoke(this, new DelegateTypeEventArgs(type));
         }
 
-        protected virtual void OnCompleted(DelegateType type)
+        protected virtual void OnCompleted()
         {
             ExecutionCompleted?.Invoke(this, EventArgs.Empty);
         }
