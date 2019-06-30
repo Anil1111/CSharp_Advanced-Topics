@@ -7,15 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specification pattern", "Sp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events_Delegates", "Events_Delegates", "{FB9182F9-A651-4106-9F23-C81A42CBE37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{F73EA054-7331-4FCC-8F8A-FA834982FC92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{F73EA054-7331-4FCC-8F8A-FA834982FC92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Covariance and Contravariance", "Covariance and Contravariance", "{7128DA11-0170-4EE3-A21A-C416BAC5C3E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variance", "Variance\Variance.csproj", "{49126EA9-E23F-4CBD-BE4E-A295353D4568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variance", "Variance\Variance.csproj", "{49126EA9-E23F-4CBD-BE4E-A295353D4568}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrent Collections", "Concurrent Collections", "{3BB797FD-6E72-487C-844E-06CB2DADA09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollections", "ConcurrentCollections\ConcurrentCollections.csproj", "{628832C1-DE1C-445C-A136-B94109B34BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentCollections", "ConcurrentCollections\ConcurrentCollections.csproj", "{628832C1-DE1C-445C-A136-B94109B34BCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{89DEA794-4DE4-48A9-8177-3671FFB233AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{628832C1-DE1C-445C-A136-B94109B34BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628832C1-DE1C-445C-A136-B94109B34BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628832C1-DE1C-445C-A136-B94109B34BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,7 @@ Global
 		{F73EA054-7331-4FCC-8F8A-FA834982FC92} = {FB9182F9-A651-4106-9F23-C81A42CBE37A}
 		{49126EA9-E23F-4CBD-BE4E-A295353D4568} = {7128DA11-0170-4EE3-A21A-C416BAC5C3E5}
 		{628832C1-DE1C-445C-A136-B94109B34BCE} = {3BB797FD-6E72-487C-844E-06CB2DADA09D}
+		{7950F990-70C8-4AC1-8ABD-C1BC2A273DDF} = {89DEA794-4DE4-48A9-8177-3671FFB233AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {727A5168-037D-4EDE-9DF6-BC42B79E331F}
