@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Covariance and Contravarian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variance", "Variance\Variance.csproj", "{49126EA9-E23F-4CBD-BE4E-A295353D4568}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrent Collections", "Concurrent Collections", "{3BB797FD-6E72-487C-844E-06CB2DADA09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollections", "ConcurrentCollections\ConcurrentCollections.csproj", "{628832C1-DE1C-445C-A136-B94109B34BCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{49126EA9-E23F-4CBD-BE4E-A295353D4568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49126EA9-E23F-4CBD-BE4E-A295353D4568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49126EA9-E23F-4CBD-BE4E-A295353D4568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628832C1-DE1C-445C-A136-B94109B34BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628832C1-DE1C-445C-A136-B94109B34BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628832C1-DE1C-445C-A136-B94109B34BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628832C1-DE1C-445C-A136-B94109B34BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F73EA054-7331-4FCC-8F8A-FA834982FC92} = {FB9182F9-A651-4106-9F23-C81A42CBE37A}
 		{49126EA9-E23F-4CBD-BE4E-A295353D4568} = {7128DA11-0170-4EE3-A21A-C416BAC5C3E5}
+		{628832C1-DE1C-445C-A136-B94109B34BCE} = {3BB797FD-6E72-487C-844E-06CB2DADA09D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {727A5168-037D-4EDE-9DF6-BC42B79E331F}
