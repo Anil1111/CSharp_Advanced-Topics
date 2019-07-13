@@ -6,6 +6,16 @@ namespace ConcurrentCollections
     using System.Collections.Generic;
     using System.Collections.Concurrent;
 
+    public class A
+    {
+        public string Name { get; set; }
+
+        public A MemberwiseCloneA()
+        {
+            return (A)this.MemberwiseClone();
+        }
+    }
+
     class Program
     {
         static void Main()
@@ -16,6 +26,12 @@ namespace ConcurrentCollections
             Task secondTask = Task.Run(() => AddElement(queue, "DSA"));
             Task.WaitAll(firstTask, secondTask);
             // Print(queue);
+
+            var first = new A { Name = "Test" };
+            var second = first;
+            first.Name = "New";
+            Console.WriteLine(first.Name);
+            Console.WriteLine(second.Name);
 
             // Example of Concurrent Dincionary
             Concurrent_Dictionary();
